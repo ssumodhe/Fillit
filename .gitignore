@@ -1,0 +1,4 @@
+*.o
+fillit
+libft/libft.a
+libft/*.o
