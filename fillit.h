@@ -6,7 +6,7 @@
 /*   By: ssumodhe <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/12/09 15:35:19 by ssumodhe          #+#    #+#             */
-/*   Updated: 2017/01/13 17:52:18 by ssumodhe         ###   ########.fr       */
+/*   Updated: 2017/01/16 14:44:46 by ssumodhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 # define FILLIT_H
 
 # include <fcntl.h>
+# include <sys/types.h>
+# include <sys/stat.h>
 # include "libft.h"
 
 typedef	struct		s_fillit
